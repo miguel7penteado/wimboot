@@ -1,0 +1,8 @@
+name: Windows 7 (High RAM)
+version: win7
+arch: x64
+memory: 5120
+logcheck:
+  - 'Found initrd at \[0x[0-9a-f]{8},0x[8-9a-f][0-9a-f]{7}\)'
+  - 'Placing initrd at \[0x[0-9a-f]{8},0x[0-7][0-9a-f]{7}\)'
+  - 'Placing initrd at physical \[0x[1-9a-f][0-9a-f]{8,},'
