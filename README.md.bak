@@ -8,7 +8,7 @@ Carregador de inicilização wimboot: Windows Imaging Format
 
 [`wimboot`][wimboot] é um carregador de inicialização para arquivos `.wim` no formato de imagem do Windows. Ele permite que você inicialize em um ambiente de implantação ou recuperação [Windows PE (WinPE)][winpe].
 
-Você pode usar `wimboot` com [iPXE][ipxe] para [inicializar o Windows PE via HTTP][como fazer]. Com uma rede Gigabit Ethernet, uma imagem típica do WinPE (sucessor do disco de boot do DOS) deve ser baixada em apenas alguns segundos.
+Você pode usar `wimboot` com [iPXE][ipxe] para [inicializar o Windows PE via HTTP][como fazer]. Com uma rede Gigabit Ethernet, uma imagem típica do WinPE deve ser baixada em apenas alguns segundos.
 
 Demonstração
 ------------
